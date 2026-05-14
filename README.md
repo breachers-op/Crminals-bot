@@ -71,8 +71,8 @@ A powerful Telegram userbot built with Telethon featuring music management and g
 
 # 🚀 Session Generator
 
-## Generate Telegram Session String
-[![Generate Session](https://replit.com/badge/github/breachers-op/Crminals-bot)](https://replit.com/github/breachers-op/Crminals-bot/blob/main/generate_session.py)
+## Generate Telegram Session
+[![Run on Replit](https://replit.com/badge/github/YOUR_USERNAME/Crminals-Session-Generator)](https://replit.com/github/YOUR_USERNAME/Crminals-Session-Generator)
 
 ## Usage
 
