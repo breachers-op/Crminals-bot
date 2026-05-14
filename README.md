@@ -69,6 +69,11 @@ A powerful Telegram userbot built with Telethon featuring music management and g
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?repository=https://github.com/breachers-op/Crminals-bot)
 
+# 🚀 Session Generator
+
+## Generate Telegram Session String
+[![Generate Session](https://replit.com/badge/github/breachers-op/Crminals-bot)](https://replit.com/github/breachers-op/Crminals-bot/blob/main/generate_session.py)
+
 ## Usage
 
 ### Commands
