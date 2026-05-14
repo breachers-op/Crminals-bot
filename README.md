@@ -67,12 +67,29 @@ A powerful Telegram userbot built with Telethon featuring music management and g
 4. Copy your `API_ID` and `API_HASH`
 5. Add them to `.env` file
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?repository=https://github.com/breachers-op/Crminals-bot)
+## 🚀 Session Generator
 
-# 🚀 Session Generator
+Generate Telegram sessions for both UserBot and Music Bot directly on Replit:
 
-## Generate Telegram Session
-[![Run on Replit](https://replit.com/badge/github/YOUR_USERNAME/Crminals-Session-Generator)](https://replit.com/github/YOUR_USERNAME/Crminals-Session-Generator)
+[![Run on Replit](https://replit.com/badge/github/breachers-op/Crminals-bot)](https://replit.com/github/breachers-op/Crminals-bot)
+
+### How to Generate a Session:
+
+1. Click the "Run on Replit" button above
+2. Follow the interactive prompts:
+   - Enter your `API_ID` (from [my.telegram.org/apps](https://my.telegram.org/apps))
+   - Enter your `API_HASH` (from [my.telegram.org/apps](https://my.telegram.org/apps))
+   - Enter your phone number with country code (e.g., +1234567890)
+   - Choose session type (1 for UserBot, 2 for Music Bot)
+3. Enter the verification code Telegram sends
+4. If 2FA is enabled, enter your password
+5. Download the generated `.session` file
+6. Add it to your bot deployment
+
+**Alternative Method (Local):**
+```bash
+python session_generator.py
+```
 
 ## Usage
 
@@ -102,8 +119,11 @@ A powerful Telegram userbot built with Telethon featuring music management and g
 Crminals-bot/
 ├── main.py                 # Entry point
 ├── config.py              # Configuration
+├── session_generator.py   # Session generation tool
 ├── requirements.txt       # Dependencies
+├── requirements-session.txt # Session generator dependencies
 ├── .env.example          # Environment template
+├── .replit               # Replit configuration
 ├── handlers/             # Command handlers
 │   ├── music.py         # Music bot commands
 │   ├── management.py    # Group management commands
@@ -125,6 +145,7 @@ Crminals-bot/
 - Violating Telegram's Terms of Service may result in account ban
 - Use responsibly and ethically
 - Do not use for spam or abuse
+- **Never share your `.session` files** - they contain sensitive authentication data
 
 ## License
 
