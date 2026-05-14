@@ -67,6 +67,8 @@ A powerful Telegram userbot built with Telethon featuring music management and g
 4. Copy your `API_ID` and `API_HASH`
 5. Add them to `.env` file
 
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?repository=https://github.com/breachers-op/Crminals-bot)
+
 ## Usage
 
 ### Commands
